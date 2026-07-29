@@ -5,6 +5,8 @@ import en from '../locales/en.js'
 const STORAGE_KEY = 'fp-lang'
 
 function detectLocale() {
+  if (typeof window === 'undefined') return 'es'
+
   const saved = localStorage.getItem(STORAGE_KEY)
   if (saved === 'es' || saved === 'en') return saved
 
@@ -21,8 +23,11 @@ export const i18n = createI18n({
 
 export function setLocale(locale) {
   i18n.global.locale.value = locale
+  if (typeof window === 'undefined') return
   localStorage.setItem(STORAGE_KEY, locale)
   document.documentElement.setAttribute('lang', locale)
 }
 
-document.documentElement.setAttribute('lang', i18n.global.locale.value)
+if (typeof window !== 'undefined') {
+  document.documentElement.setAttribute('lang', i18n.global.locale.value)
+}
