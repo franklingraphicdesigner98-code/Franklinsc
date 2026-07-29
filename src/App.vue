@@ -14,6 +14,9 @@
 </template>
 
 <script setup>
+import { useRouteMeta } from './composables/useRouteMeta.js'
+
+useRouteMeta()
 </script>
 
 <style>

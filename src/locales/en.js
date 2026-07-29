@@ -224,6 +224,11 @@ export default {
         title: 'CoRay Dev', subtitle: 'Custom software · corporate site',
         description: 'Corporate website for a software development company, communicating its value proposition: "We build custom software".',
         fullDesc: 'Development of the corporate website for CoRay Dev, a custom software development company. The site\'s design and build reinforce its positioning as a flexible technology partner, capable of creating personalized digital solutions for each client.'
+      },
+      simulador: {
+        title: 'Financial Simulator', subtitle: 'Instituto Marco Fidel · educational tool',
+        description: 'Interactive financial simulator built for Instituto Marco Fidel, designed to support hands-on learning of financial concepts.',
+        fullDesc: 'Development of a custom financial simulator for Instituto Marco Fidel, a web tool that lets students practice and visualize financial concepts interactively.'
       }
     }
   },

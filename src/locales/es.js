@@ -224,6 +224,11 @@ export default {
         title: 'CoRay Dev', subtitle: 'Software a la medida · sitio corporativo',
         description: 'Sitio web corporativo para empresa de desarrollo de software, comunicando su propuesta de valor: "Construimos software a la medida".',
         fullDesc: 'Desarrollo del sitio web corporativo de CoRay Dev, una compañía de desarrollo de software a la medida. El diseño y la construcción del sitio refuerzan su posicionamiento como socio tecnológico flexible, capaz de crear soluciones digitales personalizadas para cada cliente.'
+      },
+      simulador: {
+        title: 'Simulador Financiero', subtitle: 'Instituto Marco Fidel · herramienta educativa',
+        description: 'Simulador financiero interactivo desarrollado para el Instituto Marco Fidel, pensado para apoyar el aprendizaje práctico de conceptos financieros.',
+        fullDesc: 'Desarrollo de un simulador financiero a medida para el Instituto Marco Fidel, una herramienta web que permite a los estudiantes practicar y visualizar conceptos financieros de forma interactiva.'
       }
     }
   },

@@ -269,6 +269,14 @@ const allProjects = [
     image: imgCard('franklincs/coray-cover'),
     gallery: [ imgGallery('franklincs/coray-cover') ]
   },
+  {
+    id: 3, key: 'simulador', span: 'span-wide', category: 'Corporativo', year: '2026',
+    client: 'Instituto Marco Fidel',
+    tags: ['Simulador Financiero', 'Educación', 'Herramienta Web'],
+    link: 'https://www.instagram.com/reel/Da1ifixzUnq/',
+    image: '/img/simulador financiero.jpg',
+    gallery: [ '/img/simulador financiero.jpg' ]
+  },
 ];
 
 const filteredProjects = computed(() =>
